@@ -1,0 +1,208 @@
+
+
+
+/* if the viewport is equal to 340px or less than that */ 
+@media only screen and (max-width: 340px){
+    
+}
+
+
+/* if the viewport is equal to 340px or less than that */ 
+@media (max-width: 970px){
+    #menulogo{
+        display: block;
+        font-size: 2.4rem;
+        margin: 1px 10px;
+    }
+    #backlogo{
+        display: block;
+        margin-left: 150px;
+        margin-bottom: 30px;
+        font-size: 2.4rem;
+        
+    }
+    
+
+    #navvy{
+        background-color: rgb(2, 18, 29);
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+        width: 0;
+        position: fixed;
+        margin-left: 0px;
+        margin-top: 275px;
+        text-align: center;
+        justify-content: center;
+        overflow-x: hidden;
+        transition: 0.4s;
+        opacity: 0.77;
+    }
+
+    #navbar__logo{
+        font-size: 1.2rem;
+        margin-left: 25px;
+    }
+    #navbar button {
+        margin: 8px 10px;
+        /* margin-left: 61px; */
+        /* margin-top: -9px; */
+    }
+      
+    #navvy li a{
+        color:white;
+        text-decoration: none;
+        display:block;
+        padding: 10px 5px;
+        font-size: 1.4rem;
+        margin: 1px 26px;
+        /* transition: 0.1s; */
+    }
+
+    #home{
+        display: flex;
+        flex-direction: column;
+        height: 544px;
+        /* justify-content: center; */
+        align-items: center;
+    }
+    
+    #home::before{
+        content: "";
+        background-image: linear-gradient(to right, #111929, #21364e);
+        position: absolute;
+        height: 544px;
+        width: 100%;
+        z-index: -1;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
+    }
+    #home img{
+        height: 125px;
+        width: 125px;
+        margin-left: 0px;
+        margin-top: 72px;
+    }
+    
+    /* #hwriten{
+        
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    
+    .smaller{
+        font-size: 1.5rem;
+    }
+    .larger{
+        font-size: 2.5rem;
+    } */
+    #hwriten{
+        text-align: center;
+        margin-left: -62px;
+        margin-top: 26px;
+        
+    }
+    
+    #hwriten h2{
+        /* color: rgb(13, 73, 112); */
+        font-size: 1.5rem;
+    }
+    #hwriten h1{
+        /* color: rgb(13, 73, 112); */
+        font-size: 2.5rem;
+        /* font-family: 'Great Vibes', cursive; */
+    }
+    #hwriten h1 span{
+        /* color: rgb(13, 73, 112); */
+        font-size: 2rem;
+        /* font-family: 'Great Vibes', cursive; */
+    }
+    #hwriten h4{
+        /* color: rgb(13, 73, 112); */
+        font-size: 1rem;
+        /* font-family: 'Nova Flat', cursive; */
+    }
+    #home button{
+        margin: 40px 0px;
+        /* margin-left: 260px;
+        width: 130px; */
+    }
+
+    #about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }    
+    #img1{
+        height: 200px;
+        width: 200px;
+        /* margin-left: 1px;
+        margin-top: 2px; */
+    }
+
+    .card-wrapper{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .scard img{
+        height: 70px;
+        width: 60px;
+    }
+    #skills p {
+        font-size: .77rem;
+    }
+    footer{
+        padding: 2rem 0;
+    }
+    #awriten h1{
+        /* color: rgb(13, 73, 112); */
+        font-size: 1.4rem;
+        /* font-family: 'Great Vibes', cursive; */
+    }
+    #awriten p {
+        font-family: 'Lato', sans-serif;
+        color: var(--ternary);
+        line-height: 1.6;
+        font-size: .9rem;
+        margin-bottom: 2rem;
+        margin-right: 0px;
+        margin-top: 10px;
+        text-align: center;
+        padding: 0 1rem;
+    }
+    #awriten{
+        margin-left: 0px;
+        text-align: center;
+    }
+    #social{
+        justify-content: center;
+    }
+    #skills h1{
+        text-align: center;
+        font-size: 1.4rem;
+        margin: 5px 0px;
+        
+    }
+    #projects h1{
+        text-align: center;
+        font-size: 1.4rem;
+        margin: 5px 0px;
+    }
+    
+}
+
+
+
+/* if the viewport is equal to 1910px or less than that */ 
+@media only screen and (max-width: 1212px) and (min-width: 970px){
+    #home img{
+    height: 400px;
+    width: 400px;
+    margin-left: 500px;
+    margin-top: 120px;
+    }
+    #hwriten {
+        text-align: center;
+        margin-left: -600px;
+        margin-top: -263px;
+    }
+}

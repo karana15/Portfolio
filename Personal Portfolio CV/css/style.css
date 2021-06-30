@@ -443,7 +443,6 @@ background-size: 100%;
 
    footer{
     background-image: linear-gradient(to right, #111929, #21364e);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
     text-align: center;
     padding: 5rem 0;
 }
